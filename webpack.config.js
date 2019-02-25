@@ -40,7 +40,7 @@ module.exports = {
       filename: 'styles.css',
     }),
   ],
-  devtool: 'cheap-module-eval-source-map',
+  devtool: 'inline-source-map',
   devServer: {
     contentBase: path.join(__dirname, 'public'),
     historyApiFallback: true,
